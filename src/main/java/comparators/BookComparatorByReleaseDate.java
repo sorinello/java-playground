@@ -21,7 +21,6 @@ public class BookComparatorByReleaseDate implements Comparator<Book> {
         this.order = order;
     }
 
-    @Override
     public int compare(Book book1, Book book2) {
 
         int result = book1.getReleaseDate().compareTo(book2.getReleaseDate());

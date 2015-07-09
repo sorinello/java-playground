@@ -26,7 +26,6 @@ public class Author implements Comparable<Author> {
         this.firstName = firstName;
     }
 
-    @Override
     public int compareTo(Author o) {
         if (!this.lastName.equals(o.getLastName()))
             return this.lastName.compareTo(o.getLastName());

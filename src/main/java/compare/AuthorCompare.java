@@ -15,7 +15,6 @@ import model.Book;
 
 public class AuthorCompare {
 
-    @SuppressWarnings("deprecation")
     public static final void main(String... args) {
 
         Calendar calendar = Calendar.getInstance();
